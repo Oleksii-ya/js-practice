@@ -20,6 +20,6 @@ function sortWithCopy(arr) {
   return quickSort(copy)
 }
 
-const arr = [109, 136, 156, 188, 19, 190, 2, 34, 55, 90]
+const arr = [109, 136, 156, 188, 19, 190, 2, 34, 55, 90, 190]
 
 console.log(sortWithCopy(arr))
