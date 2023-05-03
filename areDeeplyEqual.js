@@ -2,7 +2,7 @@ const areDeeplyEqual = (o1, o2) => {
   let res = true
 
   const checkFoo = (o1, o2) => {
-    if (o1 === null || o2 === null) {
+    if ((o1 === null) || (o2 === null)) {
       if (o2 !== o1) {
         res = false
       }
@@ -10,7 +10,7 @@ const areDeeplyEqual = (o1, o2) => {
     }
 
     // basic simple situation
-    if (typeof o1 !== 'object' || typeof o2 !== 'object') {
+    if ((typeof o1 !== 'object') || (typeof o2 !== 'object')) {
       if (o1 !== o2) {
         res = false
       }
