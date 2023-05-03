@@ -71,9 +71,10 @@ function loadGrain(array) {
   return resultObj.total
 }
 
-// console.log(loadGrain([4, 1, 3]))
+console.log(loadGrain([4, 1, 3]))
 console.log(loadGrain([2, 1, 5, 2, 7, 4, 10, 8, 5, 7, 4, 2]))
-// console.log(loadGrain([2, 0, 1, 5, 2, 7]))
-// console.log(loadGrain([2, 4, 2]))
-// console.log(loadGrain([7, 4]))
-// console.log(loadGrain([]))
+console.log(loadGrain([2, 0, 1, 5, 2, 7]))
+console.log(loadGrain([2, 4, 2]))
+console.log(loadGrain([7, 4]))
+console.log(loadGrain([]))
+console.log(loadGrain([2, 1, 5, 2, 7, 4, 10, 8, 5, 7, 4, 2, 1, 0, 10, 14, 18, 9, 4, 5, 66, 34, 4, 43543, 5, 345, 3, 4]))
